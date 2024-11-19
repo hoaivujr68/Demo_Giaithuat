@@ -149,7 +149,7 @@ if __name__ == "__main__":
 
     # Tối ưu hóa với Optuna
     study = optuna.create_study(direction="maximize")
-    study.optimize(objective, n_trials=2)
+    study.optimize(objective, n_trials=10)
 
     fig = viz.plot_optimization_history(study)
     fig.write_html("optimization_history.html")
