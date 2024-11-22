@@ -1,0 +1,1152 @@
+{
+    "GV001": {
+        "assigned_hours": 4.5,
+        "time_gl": 7.56,
+        "workload_ratio": 0.6,
+        "assigned_classes": [
+            "732868_5"
+        ]
+    },
+    "GV003": {
+        "assigned_hours": 33.4,
+        "time_gl": 16.2,
+        "workload_ratio": 2.06,
+        "assigned_classes": [
+            "143409_2",
+            "143663_6",
+            "144956_3"
+        ]
+    },
+    "GV004": {
+        "assigned_hours": 15.2,
+        "time_gl": 18.36,
+        "workload_ratio": 0.83,
+        "assigned_classes": [
+            "144219_5"
+        ]
+    },
+    "GV005": {
+        "assigned_hours": 18.4,
+        "time_gl": 11.66,
+        "workload_ratio": 1.58,
+        "assigned_classes": [
+            "143577_2",
+            "147115_4"
+        ]
+    },
+    "GV006": {
+        "assigned_hours": 46.6,
+        "time_gl": 19.44,
+        "workload_ratio": 2.4,
+        "assigned_classes": [
+            "144929_6",
+            "144930_2",
+            "144958_6",
+            "732727_5",
+            "732776_5"
+        ]
+    },
+    "GV007": {
+        "assigned_hours": 56.8,
+        "time_gl": 16.2,
+        "workload_ratio": 3.51,
+        "assigned_classes": [
+            "143527_3",
+            "143672_3",
+            "143674_6",
+            "143927_4",
+            "144914_3",
+            "147115_6"
+        ]
+    },
+    "GV008": {
+        "assigned_hours": 92.4,
+        "time_gl": 20.52,
+        "workload_ratio": 4.5,
+        "assigned_classes": [
+            "143801_4",
+            "143925_3",
+            "144147_2",
+            "144961_3",
+            "732705_3",
+            "732706_2",
+            "732738_2",
+            "732744_5",
+            "732752_5",
+            "732760_2",
+            "732795_4"
+        ]
+    },
+    "GV009": {
+        "assigned_hours": 75.3,
+        "time_gl": 20.52,
+        "workload_ratio": 3.67,
+        "assigned_classes": [
+            "143578_2",
+            "143833_4",
+            "144913_3",
+            "144914_5",
+            "144939_2",
+            "144940_2",
+            "732720_6",
+            "732873_6"
+        ]
+    },
+    "GV010": {
+        "assigned_hours": 25.8,
+        "time_gl": 19.44,
+        "workload_ratio": 1.33,
+        "assigned_classes": [
+            "143928_2",
+            "732722_3",
+            "732730_6",
+            "732831_2"
+        ]
+    },
+    "GV011": {
+        "assigned_hours": 10.2,
+        "time_gl": 7.56,
+        "workload_ratio": 1.35,
+        "assigned_classes": [
+            "144927_3"
+        ]
+    },
+    "GV012": {
+        "assigned_hours": 63.9,
+        "time_gl": 21.6,
+        "workload_ratio": 2.96,
+        "assigned_classes": [
+            "143679_2",
+            "144923_3",
+            "732714_5",
+            "732747_4",
+            "732751_4",
+            "732755_5",
+            "732775_4",
+            "732780_2",
+            "732781_2",
+            "732791_2",
+            "732832_6",
+            "732833_7",
+            "732859_3"
+        ]
+    },
+    "GV013": {
+        "assigned_hours": 7.2,
+        "time_gl": 21.6,
+        "workload_ratio": 0.33,
+        "assigned_classes": [
+            "144106_3"
+        ]
+    },
+    "GV014": {
+        "assigned_hours": 13.6,
+        "time_gl": 19.44,
+        "workload_ratio": 0.7,
+        "assigned_classes": [
+            "143602_5",
+            "144940_5"
+        ]
+    },
+    "GV015": {
+        "assigned_hours": 77.3,
+        "time_gl": 19.44,
+        "workload_ratio": 3.98,
+        "assigned_classes": [
+            "143410_5",
+            "143411_3",
+            "143534_5",
+            "144928_5",
+            "144931_4",
+            "732867_5",
+            "732869_5",
+            "732870_7"
+        ]
+    },
+    "GV016": {
+        "assigned_hours": 68.8,
+        "time_gl": 19.44,
+        "workload_ratio": 3.54,
+        "assigned_classes": [
+            "143642_2",
+            "143645_3",
+            "143853_4",
+            "144937_6",
+            "144952_3"
+        ]
+    },
+    "GV017": {
+        "assigned_hours": 65.6,
+        "time_gl": 11.88,
+        "workload_ratio": 5.52,
+        "assigned_classes": [
+            "143408_2",
+            "143606_3",
+            "143607_6",
+            "143690_2",
+            "143934_6",
+            "732717_3",
+            "732723_4"
+        ]
+    },
+    "GV018": {
+        "assigned_hours": 59.2,
+        "time_gl": 19.44,
+        "workload_ratio": 3.05,
+        "assigned_classes": [
+            "143682_2",
+            "143688_3",
+            "144925_3",
+            "144942_4",
+            "144957_6",
+            "144957_5"
+        ]
+    },
+    "GV019": {
+        "assigned_hours": 44.1,
+        "time_gl": 21.06,
+        "workload_ratio": 2.09,
+        "assigned_classes": [
+            "143417_5",
+            "143680_5",
+            "732733_7",
+            "732739_4",
+            "732749_6",
+            "732768_6",
+            "732769_6",
+            "732778_6",
+            "732861_4"
+        ]
+    },
+    "GV021": {
+        "assigned_hours": 39.2,
+        "time_gl": 20.52,
+        "workload_ratio": 1.91,
+        "assigned_classes": [
+            "143538_3",
+            "143673_4",
+            "143805_3",
+            "732863_6",
+            "732864_6"
+        ]
+    },
+    "GV022": {
+        "assigned_hours": 83.4,
+        "time_gl": 20.52,
+        "workload_ratio": 4.06,
+        "assigned_classes": [
+            "143421_3",
+            "143883_6",
+            "144000_2",
+            "144001_4",
+            "144943_6",
+            "144963_5",
+            "732713_4",
+            "732788_6",
+            "732793_3"
+        ]
+    },
+    "GV023": {
+        "assigned_hours": 34.8,
+        "time_gl": 17.28,
+        "workload_ratio": 2.01,
+        "assigned_classes": [
+            "143596_2",
+            "143599_5",
+            "143691_2",
+            "143805_2",
+            "144953_2"
+        ]
+    },
+    "GV024": {
+        "assigned_hours": 24.6,
+        "time_gl": 19.44,
+        "workload_ratio": 1.27,
+        "assigned_classes": [
+            "143537_4",
+            "144915_2"
+        ]
+    },
+    "GV025": {
+        "assigned_hours": 10.2,
+        "time_gl": 16.2,
+        "workload_ratio": 0.63,
+        "assigned_classes": [
+            "144916_2"
+        ]
+    },
+    "GV026": {
+        "assigned_hours": 10.2,
+        "time_gl": 19.44,
+        "workload_ratio": 0.52,
+        "assigned_classes": [
+            "144938_2"
+        ]
+    },
+    "GV028": {
+        "assigned_hours": 35.4,
+        "time_gl": 19.44,
+        "workload_ratio": 1.82,
+        "assigned_classes": [
+            "143567_3",
+            "143883_4",
+            "143999_4",
+            "144953_4",
+            "732882_7"
+        ]
+    },
+    "GV029": {
+        "assigned_hours": 50.8,
+        "time_gl": 20.52,
+        "workload_ratio": 2.48,
+        "assigned_classes": [
+            "143665_4",
+            "144109_4",
+            "144221_3",
+            "144934_3"
+        ]
+    },
+    "GV030": {
+        "assigned_hours": 35.0,
+        "time_gl": 14.04,
+        "workload_ratio": 2.49,
+        "assigned_classes": [
+            "143403_3",
+            "143568_6",
+            "144107_2"
+        ]
+    },
+    "GV031": {
+        "assigned_hours": 22.6,
+        "time_gl": 20.52,
+        "workload_ratio": 1.1,
+        "assigned_classes": [
+            "144749_4",
+            "732741_6",
+            "732742_2",
+            "732783_3"
+        ]
+    },
+    "GV032": {
+        "assigned_hours": 78.4,
+        "time_gl": 20.52,
+        "workload_ratio": 3.82,
+        "assigned_classes": [
+            "143610_6",
+            "143678_5",
+            "143681_4",
+            "145695_2",
+            "732880_6",
+            "732883_7",
+            "732886_5",
+            "732887_3",
+            "732889_3",
+            "732891_2",
+            "732893_4"
+        ]
+    },
+    "GV033": {
+        "assigned_hours": 74.2,
+        "time_gl": 20.52,
+        "workload_ratio": 3.62,
+        "assigned_classes": [
+            "143571_5",
+            "143609_6",
+            "144020_3",
+            "144876_4",
+            "144903_4",
+            "144926_6",
+            "732875_3",
+            "732878_6",
+            "732890_2"
+        ]
+    },
+    "GV034": {
+        "assigned_hours": 79.8,
+        "time_gl": 20.52,
+        "workload_ratio": 3.89,
+        "assigned_classes": [
+            "143416_3",
+            "144002_3",
+            "144933_2",
+            "144935_3",
+            "144935_2",
+            "144936_3",
+            "144941_5",
+            "144959_5"
+        ]
+    },
+    "GV035": {
+        "assigned_hours": 41.7,
+        "time_gl": 20.52,
+        "workload_ratio": 2.03,
+        "assigned_classes": [
+            "144911_4",
+            "732798_2",
+            "732815_7",
+            "732816_7",
+            "732860_3",
+            "732865_6"
+        ]
+    },
+    "GV036": {
+        "assigned_hours": 43.0,
+        "time_gl": 20.52,
+        "workload_ratio": 2.1,
+        "assigned_classes": [
+            "144002_2",
+            "144108_4",
+            "732707_3",
+            "732708_4",
+            "732750_2"
+        ]
+    },
+    "GV037": {
+        "assigned_hours": 54.9,
+        "time_gl": 20.52,
+        "workload_ratio": 2.68,
+        "assigned_classes": [
+            "143597_3",
+            "143598_6",
+            "143600_2",
+            "143601_2",
+            "143603_5",
+            "143604_6",
+            "143605_3",
+            "732866_4"
+        ]
+    },
+    "GV038": {
+        "assigned_hours": 7.6,
+        "time_gl": 19.98,
+        "workload_ratio": 0.38,
+        "assigned_classes": [
+            "143659_3"
+        ]
+    },
+    "GV039": {
+        "assigned_hours": 44.4,
+        "time_gl": 19.44,
+        "workload_ratio": 2.28,
+        "assigned_classes": [
+            "143405_4",
+            "143692_4",
+            "144218_2",
+            "732735_5",
+            "732736_6"
+        ]
+    },
+    "GV040": {
+        "assigned_hours": 72.8,
+        "time_gl": 20.52,
+        "workload_ratio": 3.55,
+        "assigned_classes": [
+            "143803_3",
+            "143905_3",
+            "144213_2",
+            "144217_4",
+            "144870_2",
+            "144895_3",
+            "732876_3",
+            "732881_7",
+            "732885_7"
+        ]
+    },
+    "GV041": {
+        "assigned_hours": 73.2,
+        "time_gl": 20.52,
+        "workload_ratio": 3.57,
+        "assigned_classes": [
+            "143420_6",
+            "143806_2",
+            "732712_3",
+            "732762_3",
+            "732772_3",
+            "732789_6",
+            "732803_3",
+            "732820_3",
+            "732825_7"
+        ]
+    },
+    "GV043": {
+        "assigned_hours": 32.0,
+        "time_gl": 20.52,
+        "workload_ratio": 1.56,
+        "assigned_classes": [
+            "143561_4",
+            "143563_3",
+            "143566_6",
+            "144871_5"
+        ]
+    },
+    "GV044": {
+        "assigned_hours": 61.4,
+        "time_gl": 20.52,
+        "workload_ratio": 2.99,
+        "assigned_classes": [
+            "143562_3",
+            "143564_3",
+            "143644_4",
+            "143689_2",
+            "144905_5",
+            "732753_6",
+            "732771_2"
+        ]
+    },
+    "GV045": {
+        "assigned_hours": 27.8,
+        "time_gl": 19.44,
+        "workload_ratio": 1.43,
+        "assigned_classes": [
+            "144870_5",
+            "144955_4",
+            "732821_3"
+        ]
+    },
+    "GV046": {
+        "assigned_hours": 61.5,
+        "time_gl": 17.28,
+        "workload_ratio": 3.56,
+        "assigned_classes": [
+            "143574_4",
+            "143692_3",
+            "144212_2",
+            "144213_4",
+            "145940_6",
+            "732879_6",
+            "732884_7"
+        ]
+    },
+    "GV047": {
+        "assigned_hours": 112.3,
+        "time_gl": 20.52,
+        "workload_ratio": 5.47,
+        "assigned_classes": [
+            "143572_4",
+            "143573_2",
+            "144217_2",
+            "144220_4",
+            "144877_4",
+            "144896_6",
+            "145696_2",
+            "147114_4",
+            "732704_2",
+            "732732_7",
+            "732748_5",
+            "732759_4",
+            "732779_6"
+        ]
+    },
+    "GV048": {
+        "assigned_hours": 20.7,
+        "time_gl": 20.52,
+        "workload_ratio": 1.01,
+        "assigned_classes": [
+            "143836_3",
+            "732787_5",
+            "732888_3",
+            "732892_4"
+        ]
+    },
+    "GV049": {
+        "assigned_hours": 151.1,
+        "time_gl": 25.92,
+        "workload_ratio": 5.83,
+        "assigned_classes": [
+            "143835_2",
+            "144912_3",
+            "144918_4",
+            "144967_2",
+            "145940_2",
+            "732711_2",
+            "732728_6",
+            "732729_5",
+            "732731_4",
+            "732740_5",
+            "732756_3",
+            "732757_3",
+            "732758_4",
+            "732800_4",
+            "732812_5",
+            "732817_6",
+            "732824_7",
+            "732826_4",
+            "732828_6",
+            "732858_2",
+            "732862_4",
+            "732871_7",
+            "732872_7",
+            "732874_7"
+        ]
+    },
+    "GV050": {
+        "assigned_hours": 33.9,
+        "time_gl": 20.52,
+        "workload_ratio": 1.65,
+        "assigned_classes": [
+            "143565_6",
+            "144904_4",
+            "144954_3",
+            "732774_4",
+            "732877_3"
+        ]
+    },
+    "GV051": {
+        "assigned_hours": 18.8,
+        "time_gl": 19.44,
+        "workload_ratio": 0.97,
+        "assigned_classes": [
+            "143608_3",
+            "144896_3"
+        ]
+    },
+    "GV052": {
+        "assigned_hours": 35.6,
+        "time_gl": 20.52,
+        "workload_ratio": 1.73,
+        "assigned_classes": [
+            "143401_4",
+            "143677_5",
+            "732718_4",
+            "732726_4",
+            "732827_4"
+        ]
+    },
+    "GV053": {
+        "assigned_hours": 15.2,
+        "time_gl": 20.52,
+        "workload_ratio": 0.74,
+        "assigned_classes": [
+            "144101_5"
+        ]
+    },
+    "GV054": {
+        "assigned_hours": 26.4,
+        "time_gl": 20.52,
+        "workload_ratio": 1.29,
+        "assigned_classes": [
+            "143683_2",
+            "144960_6",
+            "144962_3"
+        ]
+    },
+    "GV055": {
+        "assigned_hours": 26.7,
+        "time_gl": 20.52,
+        "workload_ratio": 1.3,
+        "assigned_classes": [
+            "143542_6",
+            "732834_4",
+            "732844_3",
+            "732849_5",
+            "732900_2"
+        ]
+    },
+    "GV056": {
+        "assigned_hours": 76.2,
+        "time_gl": 20.52,
+        "workload_ratio": 3.71,
+        "assigned_classes": [
+            "143617_5",
+            "143627_5",
+            "143675_4",
+            "143710_6",
+            "144897_5",
+            "144907_6",
+            "144922_5",
+            "144924_2"
+        ]
+    },
+    "GV057": {
+        "assigned_hours": 51.6,
+        "time_gl": 20.52,
+        "workload_ratio": 2.51,
+        "assigned_classes": [
+            "144951_2",
+            "144965_2",
+            "732737_6",
+            "732839_7",
+            "732841_7",
+            "732845_3",
+            "732851_5",
+            "732897_3",
+            "732902_7"
+        ]
+    },
+    "GV058": {
+        "assigned_hours": 38.4,
+        "time_gl": 20.52,
+        "workload_ratio": 1.87,
+        "assigned_classes": [
+            "143415_6",
+            "144111_4",
+            "144964_6",
+            "732898_4"
+        ]
+    },
+    "GV059": {
+        "assigned_hours": 24,
+        "time_gl": 20.52,
+        "workload_ratio": 1.17,
+        "assigned_classes": [
+            "732754_2",
+            "732801_5",
+            "732804_4",
+            "732811_3"
+        ]
+    },
+    "GV060": {
+        "assigned_hours": 26.8,
+        "time_gl": 20.52,
+        "workload_ratio": 1.31,
+        "assigned_classes": [
+            "143419_6",
+            "143802_5"
+        ]
+    },
+    "GV061": {
+        "assigned_hours": 28.8,
+        "time_gl": 20.52,
+        "workload_ratio": 1.4,
+        "assigned_classes": [
+            "143908_5",
+            "732813_6",
+            "732857_2",
+            "732906_7"
+        ]
+    },
+    "GV063": {
+        "assigned_hours": 78.1,
+        "time_gl": 20.52,
+        "workload_ratio": 3.81,
+        "assigned_classes": [
+            "143684_4",
+            "144949_4",
+            "146007_5",
+            "732784_4",
+            "732806_2",
+            "732807_3",
+            "732809_7",
+            "732810_2",
+            "732822_3",
+            "732836_3",
+            "732846_4",
+            "732850_4",
+            "732852_4",
+            "732855_3"
+        ]
+    },
+    "GV064": {
+        "assigned_hours": 58.2,
+        "time_gl": 20.52,
+        "workload_ratio": 2.84,
+        "assigned_classes": [
+            "143522_5",
+            "143535_2",
+            "143895_2",
+            "144879_6",
+            "144932_4"
+        ]
+    },
+    "GV065": {
+        "assigned_hours": 43.9,
+        "time_gl": 20.52,
+        "workload_ratio": 2.14,
+        "assigned_classes": [
+            "143544_5",
+            "143926_5",
+            "144910_2",
+            "732837_6",
+            "732843_2",
+            "732856_6"
+        ]
+    },
+    "GV066": {
+        "assigned_hours": 25.8,
+        "time_gl": 20.52,
+        "workload_ratio": 1.26,
+        "assigned_classes": [
+            "143539_2",
+            "144100_3",
+            "732766_5"
+        ]
+    },
+    "GV067": {
+        "assigned_hours": 6,
+        "time_gl": 20.52,
+        "workload_ratio": 0.29,
+        "assigned_classes": [
+            "732802_2"
+        ]
+    },
+    "GV068": {
+        "assigned_hours": 36.0,
+        "time_gl": 20.52,
+        "workload_ratio": 1.75,
+        "assigned_classes": [
+            "732709_5",
+            "732819_6",
+            "732823_7",
+            "732901_2"
+        ]
+    },
+    "GV069": {
+        "assigned_hours": 31.8,
+        "time_gl": 20.52,
+        "workload_ratio": 1.55,
+        "assigned_classes": [
+            "143570_2",
+            "144944_6",
+            "144947_2"
+        ]
+    },
+    "GV070": {
+        "assigned_hours": 18.9,
+        "time_gl": 20.52,
+        "workload_ratio": 0.92,
+        "assigned_classes": [
+            "144103_6",
+            "732847_4",
+            "732854_3"
+        ]
+    },
+    "GV071": {
+        "assigned_hours": 31.8,
+        "time_gl": 20.52,
+        "workload_ratio": 1.55,
+        "assigned_classes": [
+            "143676_5",
+            "144159_2",
+            "732792_3",
+            "732835_3",
+            "732840_6"
+        ]
+    },
+    "GV072": {
+        "assigned_hours": 37.8,
+        "time_gl": 20.52,
+        "workload_ratio": 1.84,
+        "assigned_classes": [
+            "143616_4",
+            "143623_4",
+            "144899_4",
+            "732745_6",
+            "732782_3"
+        ]
+    },
+    "GV073": {
+        "assigned_hours": 15.0,
+        "time_gl": 20.52,
+        "workload_ratio": 0.73,
+        "assigned_classes": [
+            "732808_4",
+            "732814_4"
+        ]
+    },
+    "GV074": {
+        "assigned_hours": 67.5,
+        "time_gl": 20.52,
+        "workload_ratio": 3.29,
+        "assigned_classes": [
+            "143404_5",
+            "143540_5",
+            "143541_6",
+            "143662_4",
+            "143668_5",
+            "732716_2",
+            "732719_5",
+            "732721_2",
+            "732838_6"
+        ]
+    },
+    "GV075": {
+        "assigned_hours": 25.2,
+        "time_gl": 20.52,
+        "workload_ratio": 1.23,
+        "assigned_classes": [
+            "143414_5",
+            "143929_2",
+            "732764_4",
+            "732794_4"
+        ]
+    },
+    "GV076": {
+        "assigned_hours": 13.6,
+        "time_gl": 20.52,
+        "workload_ratio": 0.66,
+        "assigned_classes": [
+            "143624_4",
+            "144950_3"
+        ]
+    },
+    "GV077": {
+        "assigned_hours": 15.3,
+        "time_gl": 20.52,
+        "workload_ratio": 0.75,
+        "assigned_classes": [
+            "143834_2",
+            "732853_5"
+        ]
+    },
+    "GV078": {
+        "assigned_hours": 40.8,
+        "time_gl": 20.52,
+        "workload_ratio": 1.99,
+        "assigned_classes": [
+            "143619_3",
+            "143625_2",
+            "143686_5",
+            "144898_5",
+            "144921_5"
+        ]
+    },
+    "GV079": {
+        "assigned_hours": 65.4,
+        "time_gl": 20.52,
+        "workload_ratio": 3.19,
+        "assigned_classes": [
+            "143612_3",
+            "143685_2",
+            "143800_5",
+            "143804_6",
+            "144919_5",
+            "732763_3",
+            "732790_2",
+            "732894_7"
+        ]
+    },
+    "GV080": {
+        "assigned_hours": 30.2,
+        "time_gl": 20.52,
+        "workload_ratio": 1.47,
+        "assigned_classes": [
+            "146253_6",
+            "732796_3",
+            "732799_3",
+            "732805_5"
+        ]
+    },
+    "GV081": {
+        "assigned_hours": 39.6,
+        "time_gl": 20.52,
+        "workload_ratio": 1.93,
+        "assigned_classes": [
+            "143569_2",
+            "143576_5",
+            "143614_4",
+            "143621_4"
+        ]
+    },
+    "GV082": {
+        "assigned_hours": 13.2,
+        "time_gl": 20.52,
+        "workload_ratio": 0.64,
+        "assigned_classes": [
+            "143626_3",
+            "732903_7"
+        ]
+    },
+    "GV083": {
+        "assigned_hours": 10.2,
+        "time_gl": 20.52,
+        "workload_ratio": 0.5,
+        "assigned_classes": [
+            "144917_5"
+        ]
+    },
+    "GV084": {
+        "assigned_hours": 44.8,
+        "time_gl": 20.52,
+        "workload_ratio": 2.18,
+        "assigned_classes": [
+            "143400_3",
+            "143418_4",
+            "732895_2",
+            "732896_2"
+        ]
+    },
+    "GV085": {
+        "assigned_hours": 29.7,
+        "time_gl": 20.52,
+        "workload_ratio": 1.45,
+        "assigned_classes": [
+            "143611_6",
+            "143832_4",
+            "732725_3",
+            "732734_5"
+        ]
+    },
+    "GV086": {
+        "assigned_hours": 22.2,
+        "time_gl": 20.52,
+        "workload_ratio": 1.08,
+        "assigned_classes": [
+            "144906_6",
+            "144906_5",
+            "144909_2"
+        ]
+    },
+    "GV087": {
+        "assigned_hours": 40.8,
+        "time_gl": 20.52,
+        "workload_ratio": 1.99,
+        "assigned_classes": [
+            "143543_6",
+            "143613_6",
+            "144920_5",
+            "732761_2",
+            "732905_7"
+        ]
+    },
+    "GV088": {
+        "assigned_hours": 21.0,
+        "time_gl": 20.52,
+        "workload_ratio": 1.02,
+        "assigned_classes": [
+            "143620_2",
+            "143622_3",
+            "143670_6",
+            "732767_5"
+        ]
+    },
+    "GV089": {
+        "assigned_hours": 30.6,
+        "time_gl": 20.52,
+        "workload_ratio": 1.49,
+        "assigned_classes": [
+            "143643_5",
+            "144106_5",
+            "732743_4",
+            "732785_4"
+        ]
+    },
+    "GV090": {
+        "assigned_hours": 51.6,
+        "time_gl": 20.52,
+        "workload_ratio": 2.51,
+        "assigned_classes": [
+            "143536_2",
+            "143671_4",
+            "144110_4",
+            "732710_6",
+            "732715_6"
+        ]
+    },
+    "GV091": {
+        "assigned_hours": 3,
+        "time_gl": 20.52,
+        "workload_ratio": 0.15,
+        "assigned_classes": [
+            "732773_3"
+        ]
+    },
+    "GV093": {
+        "assigned_hours": 34.0,
+        "time_gl": 20.52,
+        "workload_ratio": 1.66,
+        "assigned_classes": [
+            "143894_4",
+            "144878_3",
+            "732899_7"
+        ]
+    },
+    "GV094": {
+        "assigned_hours": 12.6,
+        "time_gl": 20.52,
+        "workload_ratio": 0.61,
+        "assigned_classes": [
+            "144948_2",
+            "732797_3"
+        ]
+    },
+    "GV095": {
+        "assigned_hours": 9.0,
+        "time_gl": 20.52,
+        "workload_ratio": 0.44,
+        "assigned_classes": [
+            "732818_6"
+        ]
+    },
+    "GV096": {
+        "assigned_hours": 33.6,
+        "time_gl": 20.52,
+        "workload_ratio": 1.64,
+        "assigned_classes": [
+            "143407_6",
+            "143618_2",
+            "145941_3",
+            "732777_5"
+        ]
+    },
+    "GV097": {
+        "assigned_hours": 24.0,
+        "time_gl": 20.52,
+        "workload_ratio": 1.17,
+        "assigned_classes": [
+            "143422_3",
+            "143615_6"
+        ]
+    },
+    "GV098": {
+        "assigned_hours": 15.0,
+        "time_gl": 20.52,
+        "workload_ratio": 0.73,
+        "assigned_classes": [
+            "143575_5",
+            "732842_2"
+        ]
+    },
+    "GV099": {
+        "assigned_hours": 78.0,
+        "time_gl": 20.52,
+        "workload_ratio": 3.8,
+        "assigned_classes": [
+            "143545_5",
+            "143884_3",
+            "144102_6",
+            "144104_5",
+            "144105_3",
+            "146254_4",
+            "732848_5"
+        ]
+    },
+    "GV100": {
+        "assigned_hours": 12,
+        "time_gl": 20.52,
+        "workload_ratio": 0.58,
+        "assigned_classes": [
+            "732724_2",
+            "732829_6",
+            "732830_2"
+        ]
+    },
+    "GV101": {
+        "assigned_hours": 6,
+        "time_gl": 20.52,
+        "workload_ratio": 0.29,
+        "assigned_classes": [
+            "732770_2",
+            "732786_5"
+        ]
+    },
+    "GV102": {
+        "assigned_hours": 7.2,
+        "time_gl": 20.52,
+        "workload_ratio": 0.35,
+        "assigned_classes": [
+            "143669_6"
+        ]
+    },
+    "GV103": {
+        "assigned_hours": 43.4,
+        "time_gl": 20.52,
+        "workload_ratio": 2.12,
+        "assigned_classes": [
+            "144945_5",
+            "144946_5",
+            "144966_2",
+            "732746_2",
+            "732765_4"
+        ]
+    }
+}

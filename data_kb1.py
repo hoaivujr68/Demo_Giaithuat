@@ -62,7 +62,7 @@ def get_list_teacher(sheet):
 
 
 def get_list_nguyen_vong(sheet):
-    df = pd.read_excel(sheet, sheet_name=['Nguyện vọng', 'Thông tin DA'])
+    df = pd.read_excel(sheet, sheet_name=['Phân bổ GD', 'Nhóm CM', 'Nguyện vọng', 'Thông tin DA'])
     thong_tin_da = {}
     list_nguyen_vong = {}
     hoc_ky = None
