@@ -57,7 +57,7 @@ def evaluate(individual, teachers, classes):
         teacher_key = teacher_keys[i]
         total_hours = np.sum(individual[i, :] * [classes[class_key]["quy_doi_gio"] for class_key in class_keys])
         max_hours = teachers[teacher_key]["time_gl"]
-        if total_hours > 2 * max_hours:
+        if total_hours > 1.5 * max_hours:
             penalty += 500
         # if total_hours < max_hours:
         #     penalty += 100
