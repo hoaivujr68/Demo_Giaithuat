@@ -1,0 +1,2420 @@
+{
+    "GV031": {
+        "teacher_id": "GV031",
+        "assigned_classes": [
+            {
+                "class_id": "IT4130E-2023A-BS01_",
+                "subject": "IT4130E",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "149204_2",
+                "subject": "IT4527E",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        4,
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "IT4527-1-23 (BK01)_",
+                "subject": "IT4527",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "143783_5",
+                "subject": "IT4883Q",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV033": {
+        "teacher_id": "GV033",
+        "assigned_classes": [
+            {
+                "class_id": "149434_2",
+                "subject": "IT3040",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "149196_6",
+                "subject": "IT4023E",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            {
+                "class_id": "147731_2",
+                "subject": "IT4549",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "147839_5",
+                "subject": "IT3100E",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        4,
+                        5,
+                        6
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV019": {
+        "teacher_id": "GV019",
+        "assigned_classes": [
+            {
+                "class_id": "147896_2",
+                "subject": "IT3230E",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "IT3011-2023A-BS01_",
+                "subject": "IT3011",
+                "day": [],
+                "period": []
+            }
+        ]
+    },
+    "GV001": {
+        "teacher_id": "GV001",
+        "assigned_classes": [
+            {
+                "class_id": "149194_6",
+                "subject": "IT4033E",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        4,
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "149460_24",
+                "subject": "IT3070",
+                "day": [
+                    2,
+                    4
+                ],
+                "period": [
+                    [
+                        9,
+                        10
+                    ],
+                    [
+                        11,
+                        12
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV013": {
+        "teacher_id": "GV013",
+        "assigned_classes": [
+            {
+                "class_id": "IT4868-1-23 (BK01)_",
+                "subject": "IT4868",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "149443_6",
+                "subject": "IT3090",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            {
+                "class_id": "149462_5",
+                "subject": "IT3090",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            {
+                "class_id": "147779_55",
+                "subject": "IT3290",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        5,
+                        6
+                    ],
+                    [
+                        7,
+                        8
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV030": {
+        "teacher_id": "GV030",
+        "assigned_classes": [
+            {
+                "class_id": "IT4142E-2023A-BS01_",
+                "subject": "IT4142E",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "147776_44",
+                "subject": "IT3290",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        5,
+                        6
+                    ],
+                    [
+                        7,
+                        8
+                    ]
+                ]
+            },
+            {
+                "class_id": "IT5409-1-23-2 (BK01)_",
+                "subject": "IT5409",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "IT4033E-1-23 (BK01)_",
+                "subject": "IT4033E",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "IT4343E-2023A-BS01_",
+                "subject": "IT4343E",
+                "day": [],
+                "period": []
+            }
+        ]
+    },
+    "GV014": {
+        "teacher_id": "GV014",
+        "assigned_classes": [
+            {
+                "class_id": "149482_6",
+                "subject": "IT4501",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "149431_3",
+                "subject": "IT3100",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        4,
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "149485_4",
+                "subject": "IT4441",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV027": {
+        "teacher_id": "GV027",
+        "assigned_classes": [
+            {
+                "class_id": "149472_24",
+                "subject": "IT3160",
+                "day": [
+                    2,
+                    4
+                ],
+                "period": [
+                    [
+                        11,
+                        12
+                    ],
+                    [
+                        7,
+                        8
+                    ]
+                ]
+            },
+            {
+                "class_id": "149326_5",
+                "subject": "IT3190E",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                ]
+            },
+            {
+                "class_id": "147838_3",
+                "subject": "IT3160E",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "149473_2",
+                "subject": "IT3160",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV048": {
+        "teacher_id": "GV048",
+        "assigned_classes": [
+            {
+                "class_id": "149432_3",
+                "subject": "IT3100",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            {
+                "class_id": "147730_5",
+                "subject": "IT4549",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV045": {
+        "teacher_id": "GV045",
+        "assigned_classes": [
+            {
+                "class_id": "149433_6",
+                "subject": "IT3100",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        4,
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "149056_6",
+                "subject": "IT3120",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            {
+                "class_id": "IT4772E-2023A-BS01_",
+                "subject": "IT4772E",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "148981_4",
+                "subject": "IT3120",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            {
+                "class_id": "147843_3",
+                "subject": "IT3220",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "149488_4",
+                "subject": "IT4663",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV036": {
+        "teacher_id": "GV036",
+        "assigned_classes": [
+            {
+                "class_id": "148985_5",
+                "subject": "IT4015",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                ]
+            },
+            {
+                "class_id": "149480_2",
+                "subject": "IT4015",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                ]
+            },
+            {
+                "class_id": "147851_4",
+                "subject": "IT3020",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV028": {
+        "teacher_id": "GV028",
+        "assigned_classes": [
+            {
+                "class_id": "148982_4",
+                "subject": "IT3160",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "IT3190E-2023A-BS01_",
+                "subject": "IT3190E",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "147728_2",
+                "subject": "IT3160",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "143773_5",
+                "subject": "IT4110Q",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "149502_6",
+                "subject": "IT4818",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV005": {
+        "teacher_id": "GV005",
+        "assigned_classes": [
+            {
+                "class_id": "149323_2",
+                "subject": "IT3100E",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            {
+                "class_id": "147726_4",
+                "subject": "IT4082",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            {
+                "class_id": "149468_6",
+                "subject": "IT3180",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV009": {
+        "teacher_id": "GV009",
+        "assigned_classes": [
+            {
+                "class_id": "149491_2",
+                "subject": "IT3120",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            {
+                "class_id": "147782_66",
+                "subject": "IT3290",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        5,
+                        6
+                    ],
+                    [
+                        7,
+                        8
+                    ]
+                ]
+            },
+            {
+                "class_id": "147775_4",
+                "subject": "IT3290",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "147784_33",
+                "subject": "IT3290",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        5,
+                        6
+                    ],
+                    [
+                        7,
+                        8
+                    ]
+                ]
+            },
+            {
+                "class_id": "149507_4",
+                "subject": "IT5425",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            {
+                "class_id": "148983_2",
+                "subject": "IT3190",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV035": {
+        "teacher_id": "GV035",
+        "assigned_classes": [
+            {
+                "class_id": "147833_3",
+                "subject": "IT3312E",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        7,
+                        8
+                    ]
+                ]
+            },
+            {
+                "class_id": "149464_3",
+                "subject": "IT3040",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        9,
+                        10
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV016": {
+        "teacher_id": "GV016",
+        "assigned_classes": [
+            {
+                "class_id": "149195_3",
+                "subject": "IT3180E",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "IT3040-2023A-BS01_",
+                "subject": "IT3040",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "149456_5",
+                "subject": "IT3100",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "149033_3",
+                "subject": "IT3104",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV021": {
+        "teacher_id": "GV021",
+        "assigned_classes": [
+            {
+                "class_id": "147852_3",
+                "subject": "IT3020",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "148629_53",
+                "subject": "IT3020",
+                "day": [
+                    5,
+                    3
+                ],
+                "period": [
+                    [
+                        7,
+                        8
+                    ],
+                    [
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "148631_2",
+                "subject": "IT3011",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "149477_5",
+                "subject": "IT3170",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        11,
+                        12
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV017": {
+        "teacher_id": "GV017",
+        "assigned_classes": [
+            {
+                "class_id": "149459_24",
+                "subject": "IT3070",
+                "day": [
+                    2,
+                    4
+                ],
+                "period": [
+                    [
+                        11,
+                        12
+                    ],
+                    [
+                        9,
+                        10
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV049": {
+        "teacher_id": "GV049",
+        "assigned_classes": [
+            {
+                "class_id": "149438_45",
+                "subject": "IT3070",
+                "day": [
+                    4,
+                    5
+                ],
+                "period": [
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "148993_46",
+                "subject": "IT3070",
+                "day": [
+                    4,
+                    6
+                ],
+                "period": [
+                    [
+                        5,
+                        6
+                    ],
+                    [
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "149437_5",
+                "subject": "IT3070",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV041": {
+        "teacher_id": "GV041",
+        "assigned_classes": [
+            {
+                "class_id": "148778_5",
+                "subject": "IT1110",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV002": {
+        "teacher_id": "GV002",
+        "assigned_classes": [
+            {
+                "class_id": "148991_3",
+                "subject": "IT3011",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        4,
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "147770_5",
+                "subject": "IT4110",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "147769_6",
+                "subject": "IT4110",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV008": {
+        "teacher_id": "GV008",
+        "assigned_classes": [
+            {
+                "class_id": "147820_3",
+                "subject": "IT4082E",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        4,
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "149447_2",
+                "subject": "IT2030",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                ]
+            },
+            {
+                "class_id": "147727_5",
+                "subject": "IT4082",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        4,
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "147706_4",
+                "subject": "IT4542",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        3,
+                        4
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV022": {
+        "teacher_id": "GV022",
+        "assigned_classes": [
+            {
+                "class_id": "149489_5",
+                "subject": "IT3170",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "148630_2",
+                "subject": "IT3011",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV011": {
+        "teacher_id": "GV011",
+        "assigned_classes": [
+            {
+                "class_id": "147732_6",
+                "subject": "IT4441",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "149463_3",
+                "subject": "IT3040",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "147842_3",
+                "subject": "IT3210",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        5,
+                        6
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV025": {
+        "teacher_id": "GV025",
+        "assigned_classes": [
+            {
+                "class_id": "148842_6",
+                "subject": "IT1016",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            {
+                "class_id": "148777_3",
+                "subject": "IT1110",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "148364_5",
+                "subject": "IT1110",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "148914_4",
+                "subject": "IT1016",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV012": {
+        "teacher_id": "GV012",
+        "assigned_classes": [
+            {
+                "class_id": "147825_66",
+                "subject": "IT3323E",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        5,
+                        6
+                    ],
+                    [
+                        7,
+                        8
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV010": {
+        "teacher_id": "GV010",
+        "assigned_classes": [
+            {
+                "class_id": "149481_24",
+                "subject": "IT4015",
+                "day": [
+                    2,
+                    4
+                ],
+                "period": [
+                    [
+                        11,
+                        12
+                    ],
+                    [
+                        7,
+                        8
+                    ]
+                ]
+            },
+            {
+                "class_id": "148791_3",
+                "subject": "IT3011",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            {
+                "class_id": "148834_53",
+                "subject": "IT3010E",
+                "day": [
+                    5,
+                    3
+                ],
+                "period": [
+                    [
+                        4,
+                        5
+                    ],
+                    [
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "149201_6",
+                "subject": "IT4025E",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        4,
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "149467_6",
+                "subject": "IT3011",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV020": {
+        "teacher_id": "GV020",
+        "assigned_classes": [
+            {
+                "class_id": "147708_4",
+                "subject": "IT4930",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "149199_2",
+                "subject": "IT4772E",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                ]
+            },
+            {
+                "class_id": "147780_5",
+                "subject": "IT3290",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV043": {
+        "teacher_id": "GV043",
+        "assigned_classes": [
+            {
+                "class_id": "149505_5",
+                "subject": "IT4536",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            {
+                "class_id": "149197_5",
+                "subject": "IT4130E",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "147822_2",
+                "subject": "IT4549E",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "147823_4",
+                "subject": "IT3323E",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        5,
+                        6
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV026": {
+        "teacher_id": "GV026",
+        "assigned_classes": [
+            {
+                "class_id": "147783_6",
+                "subject": "IT3290",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "147778_5",
+                "subject": "IT3290",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "147848_4",
+                "subject": "IT3220",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "147850_2",
+                "subject": "IT3220",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "IT3090-2023A-BS01_",
+                "subject": "IT3090",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "147831_2",
+                "subject": "IT4110E",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV046": {
+        "teacher_id": "GV046",
+        "assigned_classes": [
+            {
+                "class_id": "147832_5",
+                "subject": "IT3230E",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV047": {
+        "teacher_id": "GV047",
+        "assigned_classes": [
+            {
+                "class_id": "149324_3",
+                "subject": "IT3100E",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "148994_3",
+                "subject": "IT3100",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV006": {
+        "teacher_id": "GV006",
+        "assigned_classes": [
+            {
+                "class_id": "147895_2",
+                "subject": "IT3230E",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "IT4490-2023A-BS01_",
+                "subject": "IT4490",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "143776_6",
+                "subject": "IT4490Q",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "149509_3",
+                "subject": "IT4885",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV003": {
+        "teacher_id": "GV003",
+        "assigned_classes": [
+            {
+                "class_id": "IT4663-1-23 (BK01)_",
+                "subject": "IT4663",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "IT3170-2023A-BS01_",
+                "subject": "IT3170",
+                "day": [],
+                "period": []
+            }
+        ]
+    },
+    "GV042": {
+        "teacher_id": "GV042",
+        "assigned_classes": [
+            {
+                "class_id": "147897_5",
+                "subject": "IT3312E",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        7,
+                        8
+                    ]
+                ]
+            },
+            {
+                "class_id": "149490_4",
+                "subject": "IT3170",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        5,
+                        6
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV044": {
+        "teacher_id": "GV044",
+        "assigned_classes": [
+            {
+                "class_id": "149325_3",
+                "subject": "IT3090E",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            {
+                "class_id": "149475_6",
+                "subject": "IT3120",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "IT4885-1-23-2 (BK01)_",
+                "subject": "IT4885",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "149503_4",
+                "subject": "IT5420",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "148768_6",
+                "subject": "IT1110",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV007": {
+        "teacher_id": "GV007",
+        "assigned_classes": [
+            {
+                "class_id": "149478_3",
+                "subject": "IT3190",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                ]
+            },
+            {
+                "class_id": "149483_6",
+                "subject": "IT4653",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            {
+                "class_id": "149479_35",
+                "subject": "IT3190",
+                "day": [
+                    3,
+                    5
+                ],
+                "period": [
+                    [
+                        11,
+                        12
+                    ],
+                    [
+                        7,
+                        8
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV018": {
+        "teacher_id": "GV018",
+        "assigned_classes": [
+            {
+                "class_id": "IT3160-2023A-BS01_",
+                "subject": "IT3160",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "149492_2",
+                "subject": "IT3120",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        4,
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "149474_6",
+                "subject": "IT3120",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            {
+                "class_id": "147828_4",
+                "subject": "IT3191E",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV029": {
+        "teacher_id": "GV029",
+        "assigned_classes": [
+            {
+                "class_id": "147894_4",
+                "subject": "IT3230E",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "148573_6",
+                "subject": "IT1110",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "148752_3",
+                "subject": "IT1110",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "148929_4",
+                "subject": "IT1016",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            {
+                "class_id": "148714_52",
+                "subject": "IT1110",
+                "day": [
+                    5,
+                    2
+                ],
+                "period": [
+                    [
+                        5,
+                        6
+                    ],
+                    [
+                        5,
+                        6
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV015": {
+        "teacher_id": "GV015",
+        "assigned_classes": [
+            {
+                "class_id": "148619_4",
+                "subject": "IT3011",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            {
+                "class_id": "143782_5",
+                "subject": "IT4859Q",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "149053_3",
+                "subject": "IT4079",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "147826_6",
+                "subject": "IT3323E",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "147824_6",
+                "subject": "IT3323E",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "149087_4",
+                "subject": "IT3010E",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV023": {
+        "teacher_id": "GV023",
+        "assigned_classes": [
+            {
+                "class_id": "147841_5",
+                "subject": "IT3210",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        5,
+                        6
+                    ]
+                ]
+            },
+            {
+                "class_id": "147847_44",
+                "subject": "IT3220",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        7,
+                        8
+                    ],
+                    [
+                        5,
+                        6
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV037": {
+        "teacher_id": "GV037",
+        "assigned_classes": [
+            {
+                "class_id": "148832_2",
+                "subject": "IT3020E",
+                "day": [
+                    2
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "148790_5",
+                "subject": "IT3020",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "148833_52",
+                "subject": "IT3020E",
+                "day": [
+                    5,
+                    2
+                ],
+                "period": [
+                    [
+                        2,
+                        3
+                    ],
+                    [
+                        5,
+                        6
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV040": {
+        "teacher_id": "GV040",
+        "assigned_classes": [
+            {
+                "class_id": "149476_5",
+                "subject": "IT3170",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        9,
+                        10
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV032": {
+        "teacher_id": "GV032",
+        "assigned_classes": [
+            {
+                "class_id": "IT3180-2023A-BS01_",
+                "subject": "IT3180",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "IT4501-2023A-BS01_",
+                "subject": "IT4501",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "IT3100-2023A-BS01_",
+                "subject": "IT3100",
+                "day": [],
+                "period": []
+            }
+        ]
+    },
+    "GV039": {
+        "teacher_id": "GV039",
+        "assigned_classes": [
+            {
+                "class_id": "147771_4",
+                "subject": "IT4110",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                ]
+            },
+            {
+                "class_id": "149484_6",
+                "subject": "IT4906",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "147707_3",
+                "subject": "IT4542",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV004": {
+        "teacher_id": "GV004",
+        "assigned_classes": [
+            {
+                "class_id": "149058_5",
+                "subject": "IT4542",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        7,
+                        8
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV038": {
+        "teacher_id": "GV038",
+        "assigned_classes": [
+            {
+                "class_id": "149486_35",
+                "subject": "IT4409",
+                "day": [
+                    3,
+                    5
+                ],
+                "period": [
+                    [
+                        11,
+                        12
+                    ],
+                    [
+                        7,
+                        8
+                    ]
+                ]
+            },
+            {
+                "class_id": "148618_5",
+                "subject": "IT3020",
+                "day": [
+                    5
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            },
+            {
+                "class_id": "IT6390-1-23-2 (BK01)_",
+                "subject": "IT6390",
+                "day": [],
+                "period": []
+            },
+            {
+                "class_id": "148835_3",
+                "subject": "IT3010E",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV024": {
+        "teacher_id": "GV024",
+        "assigned_classes": [
+            {
+                "class_id": "147785_3",
+                "subject": "IT3290",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "148641_3",
+                "subject": "IT3020",
+                "day": [
+                    3
+                ],
+                "period": [
+                    [
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                ]
+            },
+            {
+                "class_id": "147781_6",
+                "subject": "IT3290",
+                "day": [
+                    6
+                ],
+                "period": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
+            },
+            {
+                "class_id": "147777_4",
+                "subject": "IT3290",
+                "day": [
+                    4
+                ],
+                "period": [
+                    [
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                ]
+            }
+        ]
+    },
+    "GV034": {
+        "teacher_id": "GV034",
+        "assigned_classes": [
+            {
+                "class_id": "149504_23",
+                "subject": "IT4470",
+                "day": [
+                    2,
+                    3
+                ],
+                "period": [
+                    [
+                        5,
+                        6
+                    ],
+                    [
+                        5,
+                        6
+                    ]
+                ]
+            }
+        ]
+    }
+}

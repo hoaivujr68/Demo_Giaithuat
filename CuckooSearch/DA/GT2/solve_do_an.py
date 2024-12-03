@@ -284,6 +284,37 @@ if __name__ == "__main__":
                         "workload_ratio": round(workload_ratio, 2),  # Tỉ lệ giờ dạy
                         "assigned_aspirations": assigned_aspirations  # Danh sách các lớp được phân
                   }
+      
+      teachers_aspirations = {}
+      for j, i in best_solution:
+            if i not in teachers_aspirations:
+                  teachers_aspirations[i] = {}
+            teachers_aspirations[i][j] = aspirations[j]["course_id"]            
+      for i in teachers:
+      # Tổng thời gian hướng dẫn (GH) từ giải pháp phân bổ
+            time_gh = sum(aspirations[j]["gio"] for j in teachers_aspirations.get(i, []))
+
+            time_gh_max = round(teachers[i]["time_gh"], 2)
+
+            # Làm tròn thời gian để dễ hiển thị
+            time_gh = round(time_gh, 2)
+            
+            # Tính số lượng nguyện vọng đã phân
+            total_aspirations = len(teachers_aspirations.get(i, []))
+            
+            # Tính phần trăm thời gian GH và GL so với giới hạn
+            pt_time_gh = round((time_gh / time_gh_max) * 100, 2)
+
+            print(
+                  "%s: GHt: %4s/%4s (%4s%%) || NV: Tổng: %4s"
+                  % (
+                  i,
+                  time_gh,
+                  time_gh_max,
+                  pt_time_gh,
+                  total_aspirations,
+                  )
+            )
 
       # Kết quả
       with open('unassigned_teachers.json', 'w', encoding='utf-8') as unassigned_teachers_file:

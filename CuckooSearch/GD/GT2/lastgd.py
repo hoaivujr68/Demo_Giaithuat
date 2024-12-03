@@ -62,85 +62,6 @@ def evaluate(individual, teachers, classes):
         # if total_hours < max_hours:
         #     penalty += 100
         else: score += 15
-        
-    # Ràng buộc 3: Giảng viên chỉ dạy các môn mà họ có thể dạy
-    # for i in range(individual.shape[0]):
-    #     teacher_key = teacher_keys[i]
-    #     for j in range(individual.shape[1]):
-    #         class_key = class_keys[j]
-    #         if individual[i, j] == 1 and classes[class_key]["subject"] not in teachers[teacher_key]["teachable_subjects"]:
-    #             penalty += 100   # Phạt nặng nếu giảng viên dạy môn không hợp lệ
-    #         if individual[i, j] == 1 and classes[class_key]["subject"] in teachers[teacher_key]["teachable_subjects"]: 
-    #             score += 10
-                
-# Ràng buộc 5: Mỗi giảng viên chỉ dạy 1 lớp trong 1 thời điểm, và chỉ dạy các lớp có quy_doi_gio <= time_gl
-    # for i in range(individual.shape[0]):  # Với từng giảng viên
-    #     assigned_classes = [class_keys[j] for j in range(individual.shape[1]) if individual[i, j] == 1]
-    #     time_slots = []  # Danh sách chứa các thời gian đã dạy
-    #     total_time = 0  # Tổng thời gian giảng dạy của giảng viên
-    #     teacher_key = teacher_keys[i]
-    #     time_gl = teachers[teacher_key]["time_gl"]  # Giới hạn thời gian giảng dạy của giảng viên
-
-    #     for class_key in assigned_classes:
-    #         # Lấy danh sách các buổi học của lớp
-    #         class_days = classes[class_key]["day"]      # Danh sách các ngày
-    #         class_periods = classes[class_key]["period"]  # Danh sách các khoảng thời gian
-    #         class_weeks = classes[class_key]["week"]    # Danh sách các tuần học
-    #         class_quy_doi_gio = classes[class_key]["quy_doi_gio"]  # Quy đổi giờ của lớp
-
-    #         # Kiểm tra nếu vượt quá giới hạn thời gian của giảng viên
-    #         if class_quy_doi_gio > 2 * time_gl:
-    #             penalty += 200  # Phạt nếu lớp vượt quá giới hạn thời gian
-    #             continue
-
-    #         # Cập nhật tổng thời gian giảng dạy
-    #         total_time += class_quy_doi_gio
-
-    #         # Kiểm tra từng buổi học trong danh sách
-    #         for idx in range(len(class_days)):
-    #             class_day = class_days[idx]
-    #             class_period = set(class_periods[idx])
-    #             class_week = set(class_weeks)
-
-    #             conflict = False
-    #             for time_slot in time_slots:
-    #                 prev_day, prev_period, prev_week = time_slot
-    #                 # Xung đột nếu:
-    #                 # 1. Trùng ngày và có giao giữa period hoặc week
-    #                 if class_day == prev_day and (class_period & prev_period or class_week & prev_week):
-    #                     conflict = True
-    #                     break
-    #                 # 2. Trùng period và week nhưng khác ngày
-    #                 if class_day != prev_day and class_period == prev_period and class_week == prev_week:
-    #                     conflict = False
-    #                     break
-
-    #             if conflict:
-    #                 penalty += 100  # Phạt nếu xung đột
-    #             else:
-    #                 score += 15
-    #                 time_slots.append((class_day, class_period, class_week))  # Thêm thời gian vào danh sách
-
-        # # Kiểm tra tổng thời gian giảng dạy của giảng viên
-        # if total_time > time_gl:
-        #     penalty += 300  # Phạt nếu tổng thời gian vượt giới hạn
-
-
-
-    # # Ràng buộc: Giảm chênh lệch tỉ lệ giờ phân công giữa các giảng viên
-    # for i in range(individual.shape[0]):  # Với từng giảng viên
-    #     teacher_key = teacher_keys[i]
-    #     total_hours = np.sum(individual[i, :] * [classes[class_key]["quy_doi_gio"] for class_key in class_keys])
-    #     max_hours = teachers[teacher_key]["time_gl"]
-    #     if max_hours > 0:  # Tránh chia cho 0
-    #         workload_ratio = total_hours / max_hours
-    #         teachers[teacher_key]["workload_ratio"] = workload_ratio  # Cập nhật tỉ lệ phân công
-            
-    #         # Thêm hình phạt nếu workload_ratio > 2
-    #         if workload_ratio > 2:
-    #             penalty += 100 * (workload_ratio - 2)  # Phạt tăng theo độ chênh lệch
-    #         elif workload_ratio <= 2:
-    #             score += 10  # Thưởng nếu workload_ratio hợp lý
 
     return score - penalty
 
@@ -175,12 +96,6 @@ def cuckoo_search(teachers, classes, pop_size=50, max_iter=100, pa=0.25, beta=1.
             step_direction = np.random.randint(0, 2, (num_teachers, num_classes))
             new_individual = (individual + step_size * step_direction).astype(int)
             new_individual = np.clip(new_individual, 0, 1)
-            
-            # Đảm bảo giảng viên chỉ dạy các môn họ có thể dạy
-            # for i in range(num_teachers):  # Duyệt qua từng giảng viên
-            #     for j in range(num_classes):  # Duyệt qua từng lớp
-            #         if new_individual[i, j] == 1 and teacher_subject_matrix[i, j] == 0:
-            #             new_individual[i, j] = 0  # Xóa phân công không hợp lệ
 
             # Đảm bảo ràng buộc sau khi cập nhật new_individual
             for j in range(num_classes):  # Duyệt qua từng lớp
@@ -246,8 +161,6 @@ def cuckoo_search(teachers, classes, pop_size=50, max_iter=100, pa=0.25, beta=1.
         if np.max(fitness) > best_fitness:
             best_individual = population[np.argmax(fitness)]
             best_fitness = np.max(fitness)
-
-        print(f"Iteration {iteration + 1}/{max_iter}: Best Fitness = {best_fitness}")
 
     return best_individual, best_fitness
 

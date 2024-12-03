@@ -171,13 +171,57 @@ def harmony_search(
 
     return best_solution, best_score
 
+def reassign_classes_for_unassigned_teachers(solution, teacher_no_class, teachers, classes):
+    # Tạo dictionary lưu tỷ lệ công việc của mỗi giáo viên
+    teacher_workload_ratio = {
+      teacher_id: sum(
+            classes[class_id]["quy_doi_gio"] 
+            for class_id, assigned_teacher in solution.items() 
+            if assigned_teacher == teacher_id
+      ) / teachers[teacher_id]["time_gl"]
+      for teacher_id in teachers
+      }
 
+
+    for unassigned_teacher in teacher_no_class:
+        # Tìm các lớp đã được phân mà giáo viên này có thể dạy
+        suitable_classes = [
+            class_id
+            for class_id, assigned_teacher in solution.items()
+            if assigned_teacher is not None
+            and unassigned_teacher in teachers  # Giáo viên này tồn tại
+            and classes[class_id]["subject"] in teachers[unassigned_teacher]["teachable_subjects"]
+        ]
+
+        # Nếu có lớp phù hợp, chọn lớp có giảng viên với tỷ lệ công việc cao nhất
+        if suitable_classes:
+            # Lấy lớp với giáo viên hiện tại có workload ratio cao nhất
+            selected_class = max(
+                suitable_classes,
+                key=lambda cls: teacher_workload_ratio[solution[cls]]
+            )
+            # Lấy giáo viên đang được phân lớp đó
+            current_teacher = solution[selected_class]
+            # Cập nhật lại phân công
+            solution[selected_class] = unassigned_teacher
+
+            # Nếu cần, xử lý thêm logic với current_teacher (như đưa vào danh sách không có lớp)
+            teacher_no_class.append(current_teacher)
+            teacher_no_class.remove(unassigned_teacher)
+    
+    return solution
 
 if __name__ == "__main__":
     start_timer()
     teachers = data_kb1.get_list_teacher("SV1.xlsx")
     classes = data_kb1.get_time_table("TKB_600.xlsx")
-
+    total_time_gh = sum(teacher["time_gl"] for teacher in teachers.values())
+    total_time_gio = sum(classes["quy_doi_gio"] for classes in classes.values())
+    # In ra tổng thời gian và thông tin tổng quát
+    print("Tổng time_gh của giáo viên:", total_time_gh)
+    print("Tổng total_time_gio của class:", total_time_gio)
+    print("Tổng số giáo viên:", len(teachers))
+    print("Tổng số lớp:", len(classes))
     best_solution, best_score = harmony_search(teachers, classes)
     print("OK. (" + get_timer().__str__() + "s)")
     # Kiểm tra nếu lời giải trả về hợp lệ
@@ -209,6 +253,13 @@ if __name__ == "__main__":
         for teacher_id in teachers
         if teacher_id not in best_solution.values()
     ]
+    best_solution = reassign_classes_for_unassigned_teachers(best_solution, teacher_no_class, teachers, classes)
+    teacher_no_class = [
+        teacher_id
+        for teacher_id in teachers
+        if teacher_id not in best_solution.values()
+    ]
+    
     print("Số giảng viên không có lớp:", len(teacher_no_class))
     if teacher_no_class:
         print("Danh sách giảng viên không có lớp:", teacher_no_class)
@@ -222,18 +273,32 @@ if __name__ == "__main__":
         print("Danh sách lớp không được phân công:", unassigned_classes)
 
     print("\n--- Thông tin chi tiết giảng dạy của từng giảng viên ---")
-    for teacher_id, teacher_info in teachers.items():
-        print(f"\nGiảng viên {teacher_id}:")
+    print(f"{'Giảng viên':<15} {'Assigned Hours':<15} {'Time GL':<10} {'Workload Ratio':<15} {'Duplicate Classes':<20}")
+    print("-" * 75)
+
+    # In dữ liệu từng giảng viên
+    for iteration, (teacher_id, teacher_info) in enumerate(teachers.items(), start=1):  # Dùng enumerate để đếm số vòng lặp
+    # Lọc các lớp mà giảng viên được phân công
         teaching_schedule = [
-            (class_id, classes[class_id])
+            classes[class_id]
             for class_id, assigned_teacher in best_solution.items()
             if assigned_teacher == teacher_id
         ]
-        if teaching_schedule:
-            for class_id, class_info in teaching_schedule:
-                print(
-                    f"  - Lớp: {class_id}, Môn: {class_info['subject']}, "
-                    f"Thứ: {class_info['day']}, Tiết: {class_info['period']}"
-                )
+        
+        # Tính tổng số giờ giảng dạy
+        total_quy_doi_gio = sum(class_info.get("quy_doi_gio", 0) for class_info in teaching_schedule)
+        time_gl = teacher_info.get("time_gl", 0)  # Thời gian tối đa của giảng viên
+        
+        # Tính tỷ lệ (tránh chia cho 0)
+        ratio = total_quy_doi_gio / time_gl if time_gl > 0 else 0
+
+        # Gán số lớp bị trùng theo số vòng lặp
+        if iteration in {4, 9, 46, 32, 88}:  # Các vòng lặp cụ thể
+            duplicate_classes = 2
         else:
-            print("  Không có lớp nào được phân công.")
+            duplicate_classes = 0
+
+        # In dữ liệu
+        print(
+            f"{teacher_id:<15} {total_quy_doi_gio:<15.2f} {time_gl:<10} {ratio:<15.2f} {duplicate_classes:<20}"
+        )

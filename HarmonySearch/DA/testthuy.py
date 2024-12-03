@@ -302,6 +302,14 @@ if __name__ == "__main__":
     # In thêm thông tin chi tiết
     print("Số lớp không được phân công:", len(aspirations_no_teacher))
     print("Số giáo viên không được phân công:", len(unassigned_teachers))
+    
+    for teacher_key, data in teacher_workload_ratios.items():
+        assigned_hours = data["assigned_hours"]
+        time_gh = data["time_gh"]
+        workload_ratio = data["workload_ratio"]
+        aspirations_count = len(data["assigned_aspirations"])
+        
+        print(f"{teacher_key:<10} {assigned_hours:<15} {time_gh:<10} {workload_ratio:<15} {aspirations_count:<20}")
 
 
 

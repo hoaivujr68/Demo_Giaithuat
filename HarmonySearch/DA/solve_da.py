@@ -64,7 +64,7 @@ def evaluate_solution(solution, teachers, aspirations):
             teacher_assignments[teacher_key] += 1
 
             # Phạt nếu vượt quá giờ
-            if teacher_workload[teacher_key] > 1.5 * teacher["time_gh"]:
+            if teacher_workload[teacher_key] > 1.4 * teacher["time_gh"]:
                 total_score -= 10  # Điểm phạt nếu vượt giờ
             else:
                 total_score += 1  # Điểm thưởng nếu phân công hợp lệ
@@ -103,11 +103,11 @@ def harmony_search(
 
         for aspiration_key, aspiration_data in aspirations.items():
             if aspiration_data["giang_vien"]:
-                # Gán cứng phân công nếu có giang_vien và tổng giờ không vượt ngưỡng 1.5 * time_gh
+                # Gán cứng phân công nếu có giang_vien và tổng giờ không vượt ngưỡng 1.4 * time_gh
                 assigned_teacher = aspiration_data["giang_vien"]
                 if (
                     teacher_workload[assigned_teacher] + aspiration_data["gio"]
-                    < 1.5 * teachers[assigned_teacher]["time_gh"]
+                    < 1.4 * teachers[assigned_teacher]["time_gh"]
                     and teacher_assignments[assigned_teacher] < 30
                 ):
                     new_solution[aspiration_key] = assigned_teacher
@@ -121,7 +121,7 @@ def harmony_search(
                 if (
                     selected_teacher
                     and teacher_workload[selected_teacher] + aspiration_data["gio"]
-                    < 1.5 * teachers[selected_teacher]["time_gh"]
+                    < 1.4 * teachers[selected_teacher]["time_gh"]
                     and teacher_assignments[selected_teacher] < 30
                 ):
                     new_solution[aspiration_key] = selected_teacher
@@ -229,11 +229,21 @@ if __name__ == "__main__":
                     for item in teacher_assignments.get(teacher_key, [])
                 )
                 + aspiration_data["gio"]
-                <= 1.5 * teacher_data["time_gh"]  # Điều kiện giờ dạy
+                <= 1.4 * teacher_data["time_gh"]  # Điều kiện giờ dạy
             ]
 
             if valid_teachers:
                 selected_teacher = random.choice(valid_teachers)
+            #     selected_teacher = min(
+            #     valid_teachers,
+            #     key=lambda teacher_key: (
+            #         sum(
+            #             item["hours_assigned"]
+            #             for item in teacher_assignments.get(teacher_key, [])
+            #         )
+            #         / teachers[teacher_key]["time_gh"]
+            #     )
+            # )
 
                 if selected_teacher not in teacher_assignments:
                     teacher_assignments[selected_teacher] = []
@@ -330,3 +340,14 @@ if __name__ == "__main__":
     # In thêm thông tin chi tiết
     print("Số lớp không được phân công:", len(aspirations_no_teacher))
     print("Số giáo viên không được phân công:", len(unassigned_teachers))
+    
+    print(f"{'Giảng viên':<10} {'Assigned Hours':<15} {'Time GH':<10} {'Workload Ratio':<15} {'Total Aspirations':<20}")
+    print("-" * 70)
+
+    for teacher_key, data in teacher_workload_ratios.items():
+        assigned_hours = data["assigned_hours"]
+        time_gh = data["time_gh"]
+        workload_ratio = data["workload_ratio"]
+        aspirations_count = len(data["assigned_aspirations"])
+        
+        print(f"{teacher_key:<10} {assigned_hours:<15} {time_gh:<10} {workload_ratio:<15} {aspirations_count:<20}")

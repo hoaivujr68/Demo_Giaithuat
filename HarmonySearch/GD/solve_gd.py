@@ -1,3 +1,4 @@
+import json
 import random
 import numpy as np
 from pprint import pprint
@@ -78,7 +79,7 @@ def evaluate_solution(solution, teachers, classes):
                 # Kiểm tra nếu lớp này có tiết học trùng với các lớp khác của giảng viên
                 for scheduled_day, scheduled_period in teacher_schedules[teacher_key]:
                     if day == scheduled_day and schedules_overlap(scheduled_period, period):
-                        total_score -= 10  # Phạt nếu lịch trùng
+                        total_score -= 20  # Phạt nếu lịch trùng
                         break
 
                 teacher_schedules[teacher_key].append((day, period))  # Thêm lịch dạy mới
@@ -173,6 +174,19 @@ if __name__ == "__main__":
     start_timer()
     teachers = getdata1.get_list_teacher("NCM2.xlsx")
     classes = getdata1.get_time_table("TKB1.xlsx")
+    total_time_gh = sum(teacher["time_gl"] for teacher in teachers.values())
+    total_time_gio = sum(classes["quy_doi_gio"] for classes in classes.values())
+    # In ra tổng thời gian và thông tin tổng quát
+    print("Tổng time_gh của giáo viên:", total_time_gh)
+    print("Tổng total_time_gio của class:", total_time_gio)
+    print("Tổng số giáo viên:", len(teachers))
+    print("Tổng số lớp:", len(classes))
+        # Ghi dữ liệu vào file JSON
+    with open("teachers_data.json", "w", encoding="utf-8") as teachers_file:
+        json.dump(teachers, teachers_file, ensure_ascii=False, indent=4)
+
+    with open("classes_data.json", "w", encoding="utf-8") as classes_file:
+        json.dump(classes, classes_file, ensure_ascii=False, indent=4)
 
     best_solution, best_score = harmony_search(teachers, classes)
     print("OK. (" + get_timer().__str__() + "s)")
@@ -220,16 +234,86 @@ if __name__ == "__main__":
     print("\n--- Thông tin chi tiết giảng dạy của từng giảng viên ---")
     for teacher_id, teacher_info in teachers.items():
         print(f"\nGiảng viên {teacher_id}:")
+        
+        # Lọc các lớp mà giảng viên được phân công
         teaching_schedule = [
             (class_id, classes[class_id])
             for class_id, assigned_teacher in best_solution.items()
             if assigned_teacher == teacher_id
         ]
+        
         if teaching_schedule:
+            total_quy_doi_gio = 0  # Tổng quy đổi giờ của các lớp được phân công
+            num_classes = len(teaching_schedule)  # Số lượng lớp được phân công
+            
             for class_id, class_info in teaching_schedule:
+                total_quy_doi_gio += class_info.get('quy_doi_gio', 0)  # Cộng dồn quy đổi giờ
+                
+                # In thông tin về các lớp được phân công
                 print(
                     f"  - Lớp: {class_id}, Môn: {class_info['subject']}, "
-                    f"Thứ: {class_info['day']}, Tiết: {class_info['period']}"
+                    f"Thứ: {class_info['day']}, Tiết: {class_info['period']}, "
+                    f"Quy đổi giờ: {class_info['quy_doi_gio']}"
                 )
+            
+            # In thêm tổng quy đổi giờ, thời gian giảng viên và số lớp
+            time_gl = teacher_info.get('time_gl', 0)  # Giả sử time_gl là thuộc tính của teacher_info
+            if time_gl > 0:
+                ratio = total_quy_doi_gio / time_gl  # Tính tỷ lệ
+            else:
+                ratio = 0  # Tránh chia cho 0 nếu time_gl là 0
+            
+            print(f"  - Tổng thời gian giảng dạy: {total_quy_doi_gio} giờ")
+            print(f"  - Thời gian giảng viên: {time_gl} giờ")
+            print(f"  - Số lớp được phân công: {num_classes}")
+            print(f"  - Tỷ lệ thời gian được phân công/ thời gian giảng viên: {ratio:.2f}")
+            
         else:
             print("  Không có lớp nào được phân công.")
+
+
+            
+    # for teacher_id, teacher_info in teachers.items():
+    #     print(f"\nGiảng viên {teacher_id}:")
+    #     teaching_schedule = [
+    #         (class_id, classes[class_id])
+    #         for class_id, assigned_teacher in best_solution.items()
+    #         if assigned_teacher == teacher_id
+    #     ]
+
+    #     # Kiểm tra lớp trùng giờ
+    #     schedule_by_day = {}
+    #     for class_id, class_info in teaching_schedule:
+    #         # Bỏ qua các lớp không có day và period
+    #         if 'day' not in class_info or 'period' not in class_info:
+    #             continue
+
+    #         # Duyệt qua từng ngày dạy
+    #         for day, periods in zip(class_info['day'], class_info['period']):
+    #             if day not in schedule_by_day:
+    #                 schedule_by_day[day] = []
+    #             schedule_by_day[day].append((class_id, class_info, periods))  # Lưu cả periods vào dict
+
+    #     # In lịch dạy và thông báo các lớp trùng giờ
+    #     for day, classes_in_day in schedule_by_day.items():
+    #         checked_classes = []
+    #         for i, (class_id_1, class_info_1, periods_1) in enumerate(classes_in_day):
+    #             for j, (class_id_2, class_info_2, periods_2) in enumerate(classes_in_day):
+    #                 if i >= j or (class_id_1, class_id_2) in checked_classes:
+    #                     continue
+
+    #                 # Kiểm tra giao giữa các tiết học
+    #                 period_1 = set(periods_1)  # Chuyển periods thành set
+    #                 period_2 = set(periods_2)
+    #                 if period_1 & period_2:  # Có giao nhau
+    #                     print(
+    #                         f"  - *** Cảnh báo: Trùng giờ tại Thứ {day}:"
+    #                         f"\n    + Lớp: {class_id_1}, Môn: {class_info_1['subject']}, Tiết: {periods_1}"
+    #                         f"\n    + Lớp: {class_id_2}, Môn: {class_info_2['subject']}, Tiết: {periods_2}"
+    #                     )
+    #                     checked_classes.append((class_id_1, class_id_2))
+    #                 else:
+    #                     print(
+    #                         f"  - Lớp: {class_id_1}, Môn: {class_info_1['subject']}, "
+    #                         f"Thứ: {class_info_1['day']}, Tiết: {class_info_1['period']}"
+    #                     )

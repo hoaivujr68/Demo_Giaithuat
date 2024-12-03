@@ -278,39 +278,25 @@ for i in teachers:
     # Tổng thời gian hướng dẫn (GH) từ giải pháp phân bổ
     time_gh = sum(aspirations[j]["gio"] for j in teachers_aspirations.get(i, []))
 
-    time_gh_damh = sum(
-        aspirations[j]["gio"] if aspirations[j]["section_type"] == "ĐAMH" else 0
-        for j in teachers_aspirations.get(i, [])
-    )
-
-    time_gh_datn = sum(
-        aspirations[j]["gio"] if aspirations[j]["section_type"] == "ĐATN" else 0
-        for j in teachers_aspirations.get(i, [])
-    )
-
     time_gh_max = round(teachers[i]["time_gh"], 2)
 
     # Làm tròn thời gian để dễ hiển thị
     time_gh = round(time_gh, 2)
-
+    
+    # Tính số lượng nguyện vọng đã phân
+    total_aspirations = len(teachers_aspirations.get(i, []))
+    
     # Tính phần trăm thời gian GH và GL so với giới hạn
     pt_time_gh = round((time_gh / time_gh_max) * 100, 2)
-    pt_time_gh_datn = round((time_gh_datn / time_gh_max) * 100, 2)
-    pt_time_gh_damh = round((time_gh_damh / time_gh_max) * 100, 2)
 
     print(
-        "%s: GHt(DATN): %4s/%4s (%4s%%) || GHt(DAMH): %4s/%4s (%4s%%) || GHt: %4s/%4s (%4s%%)"
+        "%s: GHt: %4s/%4s (%4s%%) || NV: Tổng: %4s"
         % (
-            i,
-            time_gh_datn,
-            time_gh_max,
-            pt_time_gh_datn,
-            time_gh_damh,
-            time_gh_max,
-            pt_time_gh_damh,
-            time_gh,
-            time_gh_max,
-            pt_time_gh,
+      i,
+        time_gh,
+        time_gh_max,
+        pt_time_gh,
+        total_aspirations,
         )
     )
 
